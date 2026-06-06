@@ -81,6 +81,26 @@ function SignContent() {
           </div>
         </div>
 
+        {/* Demo / Testing Credentials Box */}
+        <div className="bg-neutral-900/70 border border-red-500/20 rounded-2xl p-4.5 mb-6 text-left">
+          <div className="flex items-center gap-1.5 mb-2.5">
+            <span className="text-red-500">🔑</span>
+            <span className="text-xs font-black text-red-500 uppercase tracking-widest">Demo Review Credentials</span>
+          </div>
+          <div className="flex flex-col gap-2.5 text-[11px]">
+            <div className="flex flex-col border-b border-neutral-800 pb-2">
+              <span className="font-extrabold text-neutral-300 uppercase tracking-wider">Customer Storefront Access:</span>
+              <span className="text-neutral-400 mt-0.5">Email: <strong className="text-white select-all">7497987200abhi@gmail.com</strong></span>
+              <span className="text-neutral-400">Password: <strong className="text-white select-all">string@123</strong></span>
+            </div>
+            <div className="flex flex-col">
+              <span className="font-extrabold text-neutral-350 text-neutral-300 uppercase tracking-wider">Admin Panel Access:</span>
+              <span className="text-neutral-400 mt-0.5">Email: <strong className="text-white select-all">work.abhisheky@gmail.com</strong></span>
+              <span className="text-neutral-400">Password: <strong className="text-white select-all">Abhishek@123</strong></span>
+            </div>
+          </div>
+        </div>
+
         {/* Primary Action Button */}
         <button
           onClick={handleSignIn}
