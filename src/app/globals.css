@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Ensure Grommet Layers (Cart Sidebar, Modals) always overlap the sticky headers */
+div[class*="StyledLayer"] {
+  z-index: 9999 !important;
+}
+
